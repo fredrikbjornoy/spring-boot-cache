@@ -1,0 +1,5 @@
+spring:
+  cache:
+    cache-names: personscache
+    caffeine:
+      spec: maximumSize=500, expireAfterWrite=10s
